@@ -142,7 +142,6 @@ neo_version=21.1.221
 
 - [x] ~~Auto-end battle when a player disconnects mid-fight~~
 - [x] ~~Win/loss leaderboard via `/battle stats`~~
-- [ ] Optional item betting system
 - [ ] Admin command to reset stats
 
 ---
