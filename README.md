@@ -29,13 +29,13 @@ A lightweight **server-side only** NeoForge mod that takes full ownership of PvP
 
 | Command | Description |
 |---|---|
-| `/battle player <n>` | Send a duel request |
-| `/battle accept <n>` | Accept an incoming request |
-| `/battle deny <n>` | Decline an incoming request |
+| `/battle player <name>` | Send a duel request |
+| `/battle accept <name>` | Accept an incoming request |
+| `/battle deny <name>` | Decline an incoming request |
 | `/battle forfeit` | Surrender your current battle |
 | `/battle status` | Check if you are in a battle |
 | `/battle stats` | View your win/loss record |
-| `/battle stats <n>` | View another player's record |
+| `/battle stats <name>` | View another player's record |
 | `/battle leaderboard` | Top 10 players with medals |
 
 ---
@@ -132,7 +132,7 @@ neo_version=21.1.221
 | NeoForge | 21.1.221+ |
 | Server-side only | ✅ |
 | `pvp=true` required | ✅ |
-| ATM10 v6.2.1 | ✅ Tested |
+| ATM10 v6.6 | ✅ Tested |
 | Client install required | ❌ |
 | Multiple simultaneous battles | ✅ |
 
@@ -142,8 +142,6 @@ neo_version=21.1.221
 
 - [x] ~~Auto-end battle when a player disconnects mid-fight~~
 - [x] ~~Win/loss leaderboard via `/battle stats`~~
-- [ ] Configurable request timeout duration
-- [ ] Optional arena teleport instead of world spawn
 - [ ] Optional item betting system
 - [ ] Admin command to reset stats
 
