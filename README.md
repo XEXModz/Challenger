@@ -2,7 +2,7 @@
 
 A lightweight **server-side only** NeoForge mod that takes full ownership of PvP on your Minecraft server. Players challenge each other to 1v1 battles using the `/battle` command — Challenger blocks ALL player damage by default and only allows it between players who have agreed to fight.
 
-> Built for **NeoForge 21.1.221 / Minecraft 1.21.1**
+> Built for **NeoForge 21.1.221+ / Minecraft 1.21.1**
 
 ---
 
